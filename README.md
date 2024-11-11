@@ -29,7 +29,7 @@ Termux adalah aplikasi terminal emulator untuk Android yang memungkinkan penggun
 
 Unduh dan install aplikasi Termux dari F-Droid.
 
-2. Update dan Install Paket yang Diperlukan
+## 2. Update dan Install Paket yang Diperlukan
 
 Buka Termux dan jalankan perintah berikut untuk memperbarui repositori dan menginstal paket yang diperlukan:
 
