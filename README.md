@@ -43,38 +43,40 @@ pkg install git nodejs -y
 Pilih bot WhatsApp yang ingin Anda gunakan. Misalnya, bot berbasis whatsapp-web.js. Clone repository bot ke Termux dengan perintah:
 
 ```
-git clone https://github.com/Galangxyz/rxhl
-cd WebWhatsapp-Wrapper
+git clone https://github.com/Galangxyz/rhxl.git
 ```
 
-4. Install Dependencies
+```
+cd rxhl
+```
+
+## 4. Install Dependencies
 
 Setelah meng-clone repository, instal dependensi yang diperlukan untuk bot dengan menjalankan:
 
+```
 npm install
+```
 
-5. Set Up Bot
+Setelah dependensi terinstal, Anda perlu menjalankan perintah :
 
-Setelah dependensi terinstal, Anda perlu mengatur bot. Biasanya, Anda harus memindai kode QR yang muncul di terminal dengan aplikasi WhatsApp untuk menghubungkan bot ke akun WhatsApp Anda. Jalankan perintah berikut untuk memulai bot:
+```
+npm start
+```
+
+
+## 5. Set Up Bot
+
+Setelah itu Anda harus memasukan nomor yang akan di jadikan whatsapp bot, dan akan muncul kode pairing di terminal, lalu integrasikan dengan aplikasi WhatsApp anda untuk menghubungkan bot ke akun WhatsApp Anda. Jalankan perintah berikut untuk memulai bot:
 
 node index.js
 
 Setelah bot berjalan, buka WhatsApp dan pindai kode QR yang muncul di Termux menggunakan WhatsApp di ponsel Anda.
 
-6. Menjalankan Bot Secara Otomatis
+## 6. Menguji Bot
 
-Untuk menjalankan bot secara otomatis, Anda bisa menggunakan perintah pm2 atau membuat skrip yang dijalankan di latar belakang. Install pm2 dengan:
+Setelah bot berhasil terhubung, Anda bisa mengirim pesan ke bot WhatsApp melalui WhatsApp dengan menguji ```.menu``` Bot akan merespons sesuai dengan skrip yang telah di atur.
 
-npm install pm2 -g
-
-Kemudian jalankan bot dengan pm2:
-
-pm2 start index.js
-
-7. Menguji Bot
-
-Setelah bot berhasil terhubung, Anda bisa mengirim pesan ke bot WhatsApp melalui WhatsApp seperti biasa. Bot akan merespons sesuai dengan skrip yang telah Anda atur.
-
-Kesimpulan
+# Kesimpulan
 
 Dengan mengikuti langkah-langkah di atas, Anda bisa dengan mudah menjalankan bot WhatsApp di Termux pada perangkat Android. Anda bisa mengkustomisasi bot untuk berbagai keperluan, mulai dari pengingat, pengirim pesan otomatis, hingga bot untuk kebutuhan bisnis.
