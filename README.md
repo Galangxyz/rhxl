@@ -58,18 +58,13 @@ Setelah meng-clone repository, instal dependensi yang diperlukan untuk bot denga
 npm install
 ```
 
-Setelah dependensi terinstal, Anda perlu menjalankan perintah :
-
-```
-npm start
-```
-
-
 ## 5. Set Up Bot
 
 Setelah itu Anda harus memasukan nomor yang akan di jadikan whatsapp bot, dan akan muncul kode pairing di terminal, lalu integrasikan dengan aplikasi WhatsApp anda untuk menghubungkan bot ke akun WhatsApp Anda. Jalankan perintah berikut untuk memulai bot:
 
-node index.js
+```
+npm start
+```
 
 Setelah bot berjalan, buka WhatsApp dan pindai kode QR yang muncul di Termux menggunakan WhatsApp di ponsel Anda.
 
