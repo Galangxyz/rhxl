@@ -66,7 +66,7 @@ Setelah itu Anda harus memasukan nomor yang akan di jadikan whatsapp bot, dan ak
 npm start
 ```
 
-Setelah bot berjalan, buka WhatsApp dan pindai kode QR yang muncul di Termux menggunakan WhatsApp di ponsel Anda.
+Setelah bot berjalan, buka WhatsApp dan pilih ```tautkan perangkat``` lalu gunakan dengan ```tautkan dengan nomor telpon saja ``` 
 
 ## 6. Menguji Bot
 
